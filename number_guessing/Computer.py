@@ -3,7 +3,7 @@ import random
 class Computer:
     penalty = 2 # The user has 5 changes to guess the number correctly
     winP = 4 # The user wins 2 more changes to continue playing
-    hints = 1 # how many hints the player has
+    #hints = 1 # how many hints the player has. It's a future feature
     start = 0 # The start of the range
     stop = 10 # The end of the range
 
